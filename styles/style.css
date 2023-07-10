@@ -19,6 +19,13 @@
     font-weight: 700;
 }
 
+.section-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
 .section-description {
     color: rgba(39, 39, 39, 0.60);
     font-size: 15px;
@@ -66,12 +73,6 @@ header {
 
 .featured-flowers {
     text-align: center;
-}
-
-.section-text {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
 }
 
 .flower-tiles-container {
@@ -129,10 +130,17 @@ header {
     font-size: 15px;
     font-weight: 600;
     margin-top: 20px;
+    text-align: center;
 }
 
 .promo-image {
     width: 70px;
+}
+
+.promo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .deal-section {
@@ -141,6 +149,7 @@ header {
     justify-content: space-between;
     align-items: center;
     background-color: rgba(229, 84, 115, 0.05);
+    margin-bottom: 120px;
 }
 
 .deal-text {
@@ -151,4 +160,75 @@ header {
 
 .deal-image {
     width: 280px;
+}
+
+.instagram-gallery {
+    margin: 0 200px;
+}
+
+.insta-image {
+    width: 250px;
+}
+
+.insta-image-container {
+    margin-top: 20px;
+    margin-bottom: 120px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.newsletter-subscription {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin: 0 200px;
+    padding: 100px 220px;
+    text-align: center;
+    background-image: url('../images/Rectangle\ 9.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin-bottom: 120px;
+}
+
+.sub-email {
+    width: 500px;
+    border: 0;
+    border-radius: 8px;
+    background: #FFF;
+    padding: 15px 20px;
+    margin-top: 10px;
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 14px;
+    font-weight: 400;
+}
+
+/* Footer Section */
+
+footer {
+    background-color: #111010;
+    padding: 120px 0;
+}
+
+.footer-title {
+    color: #FFF;
+    font-size: 35px;
+    font-weight: 800;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.footer-text {
+    color: rgba(255, 255, 255, 0.90);
+    text-align: center;
+    font-size: 14px;
+    font-weight: 400;
+    margin-bottom: 25px;
+}
+
+.footer-copyright-text {
+    color: rgba(255, 255, 255, 0.40);
+    text-align: center;
+    font-size: 12px;
+    font-weight: 400;
 }
