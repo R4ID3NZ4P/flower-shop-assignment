@@ -5,6 +5,10 @@
 
 /* Shared Properties */
 
+.primary-color {
+    color: #E55473;
+}
+
 .btn-primary {
     padding: 15px 30px;
     border: none;
@@ -15,12 +19,28 @@
     font-weight: 700;
 }
 
+.section-description {
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 15px;
+    font-weight: 400;
+    width: 500px;
+    margin-bottom: 25px;
+}
+
+.section-title {
+    color: #272727;
+    font-size: 30px;
+    font-weight: 800;
+    margin-bottom: 20px;
+}
+
 /* Header Section */
 
 header {
     background-color: #E554731A;
     padding: 50px 200px;
     padding-bottom: 0;
+    margin-bottom: 120px;
 }
 
 .header-content {
@@ -38,15 +58,97 @@ header {
     margin-bottom: 25px;
 }
 
-.header-description {
-    color: rgba(39, 39, 39, 0.60);
-    font-size: 15px;
-    font-weight: 400;
-    width: 500px;
-    margin-bottom: 25px;
-}
-
 .header-image {
     width: 490px;
 }
 
+/* Main Section */
+
+.featured-flowers {
+    text-align: center;
+}
+
+.section-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.flower-tiles-container {
+    display: flex;
+    margin: 0 200px;
+    justify-content: space-between;
+    margin-top: 40px;
+}
+
+.featured-flower-image {
+    width: 200px;
+    margin-bottom: 0;
+}
+
+.flower-frame {
+    width: 348px;
+    height: 404px;
+    border-radius: 50% 50% 0 0;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+}
+
+.frame-1 {
+    background-color: rgba(167, 33, 98, 0.15);
+}
+.frame-2 {
+    background-color: rgba(5, 151, 160, 0.15);
+}
+
+.frame-3 {
+    background-color: rgba(71, 125, 17, 0.15);
+}
+
+.tile-title {
+    text-decoration: underline;
+    color: #272727;
+    font-size: 18px;
+    font-weight: 700;
+    margin-top: 25px;
+}
+
+.promotion-tile {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 100px 200px;
+    border-radius: 8px;
+    background: rgba(39, 39, 39, 0.05);
+    padding: 50px 150px;
+}
+
+.promo-title {
+    color: rgba(39, 39, 39, 0.80);
+    font-size: 15px;
+    font-weight: 600;
+    margin-top: 20px;
+}
+
+.promo-image {
+    width: 70px;
+}
+
+.deal-section {
+    padding: 80px 300px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(229, 84, 115, 0.05);
+}
+
+.deal-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.deal-image {
+    width: 280px;
+}
