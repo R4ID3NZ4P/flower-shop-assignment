@@ -41,12 +41,36 @@
     margin-bottom: 20px;
 }
 
+/* Navigation Section */
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px 0;
+}
+
+.nav-title {
+    font-size: 40px;
+}
+
+.nav-links-container > .nav-links{
+    display: flex;
+    gap: 30px;
+    list-style: none;
+}
+
+.nav-link {
+    color: #F865B0;
+    text-decoration: none;
+    font-size: 20px;
+}
+
 /* Header Section */
 
 header {
     background-color: #E554731A;
-    padding: 50px 200px;
-    padding-bottom: 0;
+    padding: 0 200px;
     margin-bottom: 120px;
 }
 
@@ -65,11 +89,17 @@ header {
     margin-bottom: 25px;
 }
 
+.header-image-container {
+    padding-bottom: 0;
+}
+
 .header-image {
     width: 490px;
 }
 
 /* Main Section */
+
+/* Featured Flowers Section */
 
 .featured-flowers {
     text-align: center;
@@ -115,6 +145,8 @@ header {
     margin-top: 25px;
 }
 
+/* Promotion Banner Section */
+
 .promotion-tile {
     display: flex;
     justify-content: space-between;
@@ -143,6 +175,8 @@ header {
     align-items: center;
 }
 
+/* Deal Banner Section */
+
 .deal-section {
     padding: 80px 300px;
     display: flex;
@@ -162,6 +196,8 @@ header {
     width: 280px;
 }
 
+/* Instagram Gallery Section */
+
 .instagram-gallery {
     margin: 0 200px;
 }
@@ -176,6 +212,8 @@ header {
     display: flex;
     justify-content: space-between;
 }
+
+/* Subscription Section */
 
 .newsletter-subscription {
     display: flex;
@@ -207,7 +245,7 @@ header {
 
 footer {
     background-color: #111010;
-    padding: 120px 0;
+    padding: 100px 0;
 }
 
 .footer-title {
